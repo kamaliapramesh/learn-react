@@ -1,0 +1,17 @@
+.text-box{
+    margin: 10px;
+}
+.content {
+    color: red;
+}
+.hide-show{
+    color: orange;
+    font-weight: bold;
+}
+.d-flex{
+    display: inline-flex;
+    text-align: center;
+}
+.color-orange{
+    color: orange;
+}
