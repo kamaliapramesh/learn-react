@@ -6,6 +6,7 @@ import Multiply from './components/multiply';
 import Converter from './components/converter';
 import Dropdown from './components/dropdown';
 import Color from './components/color';
+import Clone from './components/clone';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
        <hr></hr>
       <div className="head">6. RGB Color Chooser.</div>
        <Color />
+       <hr></hr>
+      <div className="head">7. Clone HTML & Append To Body on Click.</div>
+       <Clone />
     </div>
   );
 }

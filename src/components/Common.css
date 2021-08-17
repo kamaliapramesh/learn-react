@@ -19,3 +19,9 @@
     width: 100%;
     border-collapse: collapse;
 }
+ul{
+    list-style-type: none;
+}
+.mb{
+    margin-bottom: 10px;
+}
