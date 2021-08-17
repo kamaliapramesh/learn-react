@@ -15,14 +15,14 @@ class Multiply extends React.Component {
         this.setState({ qty: e.target.value });
     }
     render() {
-        const multi = this.state.price  * this.state.qty;
+        const total = this.state.price  * this.state.qty;
         return (
             <div>
                 <div className="d-flex">
                 Price:<input type="number" className="text-box" onChange={this.priceChange} />
                 Qty:<input type="number" className="text-box" onChange={this.qtyChange} />
                 </div>
-                <p className="color-orange">{ multi }</p>
+                <p className="color-orange">{ total }</p>
             </div>
         )
     }
