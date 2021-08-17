@@ -5,6 +5,7 @@ import Hideshow from './components/hideshow';
 import Multiply from './components/multiply';
 import Converter from './components/converter';
 import Dropdown from './components/dropdown';
+import Color from './components/color';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
        <hr></hr>
       <div className="head">5. Add Dropdown menu and make Time Converter.</div>
        <Dropdown />
+       <hr></hr>
+      <div className="head">6. RGB Color Chooser.</div>
+       <Color />
     </div>
   );
 }

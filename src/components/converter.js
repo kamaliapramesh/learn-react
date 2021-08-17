@@ -6,7 +6,7 @@ class Converter extends React.Component {
         super( props )
         this.celsiusChange = this.celsiusChange.bind(this);
         this.fahrenheitChange = this.fahrenheitChange.bind(this);
-        this.state = {celsius: 0,fahrenheit: 0};
+        this.state = {celsius: 0,fahrenheit: 32};
     }
     celsiusChange(e) {
         this.setState({ celsius: e.target.value });
