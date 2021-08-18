@@ -26,11 +26,6 @@ class Clone extends React.Component {
             <li>Water</li>
             <li>Milk</li>
         </ul>
-          {/* {Array.from({ length: this.state.rows }, (_, index) => (
-            <div key={index}>
-              <input />
-            </div>
-          ))} */}
           <button className="mb" onClick={this.addRow}>Try it</button>
         </div>
       );
