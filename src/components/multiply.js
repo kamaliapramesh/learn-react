@@ -19,8 +19,8 @@ class Multiply extends React.Component {
         return (
             <div>
                 <div className="d-flex">
-                Price:<input type="number" className="text-box" onChange={this.priceChange} />
-                Qty:<input type="number" className="text-box" onChange={this.qtyChange} />
+                    Price:<input type="number" className="text-box" onChange={this.priceChange} />
+                    Qty:<input type="number" className="text-box" onChange={this.qtyChange} />
                 </div>
                 <p className="color-orange">{ total }</p>
             </div>

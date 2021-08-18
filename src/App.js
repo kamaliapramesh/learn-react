@@ -8,6 +8,7 @@ import Dropdown from './components/dropdown';
 import Color from './components/color';
 import Clone from './components/clone';
 import Increment from './components/increment';
+import Cloneincrement from './components/cloneincrement';
 
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
        <hr></hr>
       <div className="head">8. Increment Decrement Value.</div>
        <Increment />
+       <hr></hr>
+      <div className="head">9. Clone Increment Decrement Div on Click.</div>
+       <Cloneincrement />
     </div>
   );
 }

@@ -17,7 +17,6 @@ class Converter extends React.Component {
         this.setState({ fahrenheit: e.target.value });
         let cels = (e.target.value - 32.0) * 5.0/9.0;
         this.setState({ celsius: cels });
-        
     }
     render() {
         return (

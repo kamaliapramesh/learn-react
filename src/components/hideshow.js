@@ -20,22 +20,18 @@ class Hideshow extends React.Component {
         const isShow = this.state.show;
         let content;
         if (isShow) {
-            content = "You can show and hide me with this button";
-          } else {
-            content = " ";
-          }
+          content = "You can show and hide me with this button";
+        } else {
+          content = " ";
+        }
         return (
           <div>
               <p className="hide-show">{content}</p>
-              <button onClick={this.hideText}>
-                    Hide the text above
-            </button>
-            <button onClick={this.showText}>
-                    Show the text above
-            </button>
+              <button onClick={this.hideText}>Hide the text above</button>
+              <button onClick={this.showText}>Show the text above</button>
           </div>
-          );
-      }
+        );
+    }
 
 }
 export default Hideshow

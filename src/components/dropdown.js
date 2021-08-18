@@ -7,7 +7,6 @@ class Dropdown extends React.Component {
         this.textBox1Change = this.textBox1Change.bind(this);
         this.textBox2Change = this.textBox2Change.bind(this);
         this.typeChange = this.typeChange.bind(this);
-        
         this.state = {textVal1: 0,textVal2: 0 ,type: "time",label1: "Second",label2: "Minute"};
     }
     textBox1Change(e) {
@@ -19,7 +18,6 @@ class Dropdown extends React.Component {
             let fahr = (e.target.value * 9.0/5.0) + 32.0;
             this.setState({ textVal2: fahr });
         }
-        
     }
 
     typeChange(e){
@@ -53,14 +51,14 @@ class Dropdown extends React.Component {
         return (
             <div>
                 <div>
-                <select onChange={this.typeChange}>
-                    <option value="time">Time</option>
-                    <option value="temperature">Temperature</option>
-                </select>
+                    <select onChange={this.typeChange}>
+                        <option value="time">Time</option>
+                        <option value="temperature">Temperature</option>
+                    </select>
                 </div>
                 <div className="d-flex">
-                {this.state.label1}:<input type="number" value={this.state.textVal1} className="text-box" onChange={this.textBox1Change} />
-                {this.state.label2}:<input type="number" value={this.state.textVal2} className="text-box" onChange={this.textBox2Change} />
+                    {this.state.label1}:<input type="number" value={this.state.textVal1} className="text-box" onChange={this.textBox1Change} />
+                    {this.state.label2}:<input type="number" value={this.state.textVal2} className="text-box" onChange={this.textBox2Change} />
                 </div>
             </div>
         )
