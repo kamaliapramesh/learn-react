@@ -1,6 +1,6 @@
 import React from 'react';
 import './Common.css';
-import Increment from './increment.js';
+import Increment from './Increment';
 
 class Cloneincrement extends React.Component {
     state = {

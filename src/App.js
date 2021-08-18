@@ -1,14 +1,14 @@
 
 import './App.css';
-import Textwrite from './components/textwrite';
-import Hideshow from './components/hideshow';
-import Multiply from './components/multiply';
-import Converter from './components/converter';
-import Dropdown from './components/dropdown';
-import Color from './components/color';
-import Clone from './components/clone';
-import Increment from './components/increment';
-import Cloneincrement from './components/cloneincrement';
+import Textwrite from './components/Textwrite';
+import Hideshow from './components/Hideshow';
+import Multiply from './components/Multiply';
+import Converter from './components/Converter';
+import Dropdown from './components/Dropdown';
+import Color from './components/Color';
+import Clone from './components/Clone';
+import Increment from './components/Increment';
+import Cloneincrement from './components/Cloneincrement';
 
 
 function App() {
